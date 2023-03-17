@@ -30,27 +30,32 @@ font="monospace"
 number = st.sidebar.slider('Select a number:', 0, 10, 5)
 st.write('Selected number from slider widget is:', number)
 ```
-Here's the code to the .streamlit/config.toml file:
+Here's the code to the `.streamlit/config.toml` file:
 
-
+```
 [theme]
 primaryColor="#F39C12"
 backgroundColor="#2E86C1"
 secondaryBackgroundColor="#AED6F1"
 textColor="#FFFFFF"
-font="monospace"
-Line-by-line explanation
+font="monospace"`
+```
+
+## Line-by-line explanation
 The very first thing to do when creating a Streamlit app is to start by importing the streamlit library as st like so:
 
-
+```
 import streamlit as st
+```
 This is followed by creating a title text for the app:
 
-
+```
 st.title('Theming with config.toml')
+```
+
 Next, we're going to show the contents of the .streamlit/config.toml file which we'll first display a note of this via st.write followed by the actual code via st.code:
 
-
+```
 st.write('Contents of the ./streamlit/config.toml file of this app')
 
 st.code("""
@@ -61,12 +66,14 @@ secondaryBackgroundColor="#AED6F1"
 textColor="#FFFFFF"
 font="monospace"
 """)
+```
 Finally, we're creating a slider widget in the sidebar followed by displaying the selected number:
 
-
+```
 number = st.sidebar.slider('Select a number:', 0, 10, 5)
 st.write('Selected number from slider widget is:', number)
-Let's now take a look at the custom colors that we've used in this app, which is specified in the .streamlit/config.toml file:
+````
+Let's now take a look at the custom colors that we've used in this app, which is specified in the `.streamlit/config.toml` file:
 
 primaryColor="#F39C12" - This sets the primary color to orange. Notice the orange colors in the slider widget.
 backgroundColor="#2E86C1" - This sets the background color to blue. Notice the main panel has a blue background color.
