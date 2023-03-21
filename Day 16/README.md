@@ -9,6 +9,7 @@ A simple app that shows the result of our theme customization. This is made poss
 Streamlit App
 
 ## Code
+
 Here's the code to the streamlit_app.py file:
 
 ```
@@ -42,6 +43,7 @@ font="monospace"`
 ```
 
 ## Line-by-line explanation
+
 The very first thing to do when creating a Streamlit app is to start by importing the streamlit library as st like so:
 
 ```
@@ -80,6 +82,7 @@ backgroundColor="#2E86C1" - This sets the background color to blue. Notice the m
 secondaryBackgroundColor="#AED6F1" - This sets the secondary background color to dark gray. Notice the gray background color of the sidebar and the background color of the code box in the main panel.
 textColor="#FFFFFF" - The text color is set to white.
 font="monospace" - This sets the font to monospace.
-Further reading
-Theming
-HTML Color Codes is a great tool for selecting colors of interest.
+
+## Further reading
+ - Theming
+ - HTML Color Codes is a great tool for selecting colors of interest.
