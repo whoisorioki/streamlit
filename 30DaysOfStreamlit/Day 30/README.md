@@ -87,7 +87,6 @@ with st.expander('About this app'):
 ```
 
 Here, we create selection box for accepting user input on the image quality to use.
-```python
 
 ```
 # Image settings
